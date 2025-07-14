@@ -2,6 +2,8 @@ on: [workflow_dispatch, push]
 
 # will this be triggered when I commit to main branch?
 
+# well the answer is no
+
 jobs:
   hello:
     runs-on: ubuntu-latest
