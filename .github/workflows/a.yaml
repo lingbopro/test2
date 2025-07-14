@@ -1,9 +1,11 @@
 on: [workflow_dispatch, push]
 
+# will this be triggered when I commit to main branch?
+
 jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "I'm a on main!"
+          echo "I'm a on branch1!"
         shell: bash
